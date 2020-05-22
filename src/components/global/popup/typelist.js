@@ -1,0 +1,168 @@
+const popuptype = [{
+  type: 'created-dish',
+  message: '菜餚新增成功，是否要繼續新增下一筆菜餚？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'created-restaurant',
+  message: '餐廳新增成功，是否要繼續新增下一筆餐廳？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'created-set',
+  message: '套餐新增成功，是否要繼續新增下一筆套餐？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'dish-update',
+  message: '菜餚資料更新成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'recommendSet-update',
+  message: '推薦套餐資料更新成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'restaurant-update',
+  message: '餐廳資料更新成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'set-update',
+  message: '套餐資料更新成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'nodata',
+  message: '尚未新增菜餚，請新增至少一筆菜餚',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'select-on-store-dish',
+  message: '是否要上架已選取的菜餚？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'select-on-store-restaurant',
+  message: '是否要上架已選取的餐廳？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'select-on-store-set',
+  message: '是否要上架已選取的套餐？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'on-store-dish',
+  message: '菜餚上架成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'on-store-restaurant',
+  message: '餐廳上架成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'on-store-set',
+  message: '套餐上架成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'set-still-on',
+  message: '套餐尚未刪除或下架',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'nutritionist-set-still-on',
+  message: '營養師組合套餐尚未刪除或下架',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'dish-still-on',
+  message: '菜餚尚未刪除或下架',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'select-off-store-dish',
+  message: '是否要下架已選取的菜餚？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'select-off-store-restaurant',
+  message: '是否要下架已選取的餐廳？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'select-off-store-set',
+  message: '是否要下架已選取的套餐？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'off-store-dish',
+  message: '菜餚下架成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'off-store-restaurant',
+  message: '餐廳下架成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'off-store-set',
+  message: '套餐下架成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'delete-dish',
+  message: '是否要刪除已選取的菜餚？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'delete-restaurant',
+  message: '是否要刪除已選取的餐廳？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'delete-set',
+  message: '是否要刪除已選取的套餐？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'delete-successful-dish',
+  message: '菜餚刪除成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'delete-successful-restaurant',
+  message: '餐廳刪除成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'delete-successful-set',
+  message: '套餐刪除成功',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'select-add-to-set',
+  message: '是否要加入已選取的 ＿ 道菜餚至_',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'select-add-to-set-successful',
+  message: '菜餚新增成功，已加入_',
+  okTitle: '確認',
+  cancelTitle: '',
+}, {
+  type: 'notsave',
+  message: '資料尚未儲存，確定要離開嗎？',
+  okTitle: '確認',
+  cancelTitle: '取消',
+}, {
+  type: 'update-failed',
+  message: '更新失敗請重請再試',
+  okTitle: '確認',
+  cancelTitle: '',
+}];
+
+export default popuptype;
